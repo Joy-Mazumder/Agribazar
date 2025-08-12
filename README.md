@@ -23,13 +23,13 @@
 ### Member Information
 
 1. *Sourav Kumar Biswas (231-115-050)*  
-   Contribution: Database connection, Seller login, Seller register, Admin approval, Dashboard, Product upload, Project idea
+   Contribution: Database connection, Seller login, Seller register, Admin approval, Product upload, Project idea
 
 2. *Md Sumon Hossain Khan (231-115-072)*  
    Contribution: Complete table creation, My product, Filter (Default, High to Low, Low to High, Availability), Consumer login, Consumer register, Status check
 
 3. *Phijush Majumdar Joy (231-115-049)*  
-   Contribution: Complete Schema, Search functionality, Filter or filter on search result ,Add to Cart , cart functionality, Buy functionality
+   Contribution: Complete Schema, Search functionality, Filter or filter on search result ,Add to Cart , cart + Buy functionality
 
 ---
 
