@@ -95,7 +95,7 @@ To develop a full-fledged e-commerce website that enables farmers to sell their 
 ---
 
 ## 🎥 Project Video
-📌 [*Watch Project Video Here*](PUT-YOUR-VIDEO-LINK-HERE)  
+📌 [*Watch Project Video Here*]((https://youtu.be/YOCWALiFaLs?feature=shared))  
 
 *Video Includes:*
 - Demonstration of all functionalities
@@ -106,7 +106,7 @@ To develop a full-fledged e-commerce website that enables farmers to sell their 
 ---
 
 ## 📊 ER Diagram
-📌 [*View ER Diagram Here*](PUT-YOUR-ER-DIAGRAM-LINK-HERE)  
+📌 [*View ER Diagram Here*]((https://github.com/sumon2003/ER-Diagram))  
 
 ![ER Diagram](PUT-YOUR-ER-DIAGRAM-IMAGE-LINK-HERE)
 
