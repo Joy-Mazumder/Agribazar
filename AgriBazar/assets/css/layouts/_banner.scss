@@ -1,0 +1,208 @@
+.banner-area{
+    .category-content {
+        padding: 20px 15px;
+        border: 1px solid #d7d8d9;
+    }
+    .category-list{
+        margin-bottom: 26px;
+        li {
+            padding: 15px;
+            &:hover {
+                background-color: $primary_color;
+            }
+            &:hover a{
+                color: $white;
+            }
+            a {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 80px 50px;
+    }
+    .banner-content {
+        h1 {
+            text-transform: capitalize;
+            font-size: 48px;
+            line-height: 60px;
+            span {
+                font-size: 48px;
+                font-weight: 600;
+                color: $primary_color;
+            }
+        }
+         p {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 65px;
+            width: 500px;
+            text-transform: capitalize;
+        }
+    }
+    .discount {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 15px;
+        span {
+            text-transform: capitalize;
+            font-size: 16px;
+            font-weight: 500;
+            color: #666666;
+        }
+    }
+}
+
+.banner2{
+    .banner2-content {
+        h5 {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #ECDB9D;
+            span {
+                text-transform: capitalize;
+            }
+        }
+        h3 {
+            text-transform: capitalize;
+            font-size: 30px;
+            line-height: 40px;
+        }
+        p {
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            margin-top: 15px;
+        }
+    }
+    .banner2-wrapper {
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        padding: 30px 20px;
+    }
+}
+
+
+.banner3{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    .banner3-shape {
+        position: absolute;
+        right: 50px;
+    }
+    .banner3-img {
+        position: relative;
+    }
+    .banner3-img-border {
+        text-align: center;
+        width: 500px;
+        border-radius: 50%;
+        padding: 20px;
+        border: 2px dashed wheat;
+    }
+    .banner3-discount {
+        position: absolute;
+        top: 0;
+        right: 130px;
+    }
+    .banner3-item {
+        h5 {
+            color: #ea8428;
+            text-transform: capitalize;
+            font-size: 24px;
+            margin-bottom: 20px;
+            span {
+                color: #ffffff;
+                font-size: 24px;
+                font-weight: 500;
+            }
+        }
+        
+        h3 {
+            color: #ffffff;
+            font-size: 48px;
+            line-height: 60px;
+            text-transform: capitalize;
+        }
+        p {
+            color: #ffffff;
+            text-transform: capitalize;
+            margin: 20px 0;
+        }
+    }
+    .countdown {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+    .countdown-value {
+        display: block;
+        font-size: 40px;
+        color: #ffffff;
+        line-height: 55px;
+    }
+    .countdown-label {
+        display: block;
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 16px;
+    }
+    .banner3-countdown-separator {
+        font-size: 40px;
+        color: #FBCE56;
+        font-weight: 600;
+    }
+    .banner3-countdown {
+        margin-bottom: 15px;
+    }
+    .banner3-btn {
+        margin-top: 60px;
+    }
+}
+
+.banner4{
+    .banner4-single {
+        background-position: center;
+        background-size: cover;
+        height: 520px;
+        border: 1px solid #ececec;
+        border-radius: 20px;
+        transition: .3s;
+        &:hover{
+            height: 540px;
+        }
+    }
+    .banner4-item {
+        padding: 25px;
+        h5 {
+            color: #fdd057;
+            font-size: 40px;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+        h3 {
+            font-size: 30px;
+            text-transform: capitalize;
+            margin: 15px 0;
+        }
+    }
+    .banner4-btn {
+        margin-top: 30px;
+        a {
+            color: #646373;
+            text-transform: capitalize;
+            font-size: 18px;
+        }
+    }
+}
+
+

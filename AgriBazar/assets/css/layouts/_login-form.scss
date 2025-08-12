@@ -1,0 +1,159 @@
+.login-form{
+    .login-wrapper {
+        width: 80%;
+        margin: auto;
+        background: linear-gradient(241deg, #fff 0%, #fbfbfb 99.32%);
+        box-shadow: 0px 0px 19px 0px #e8e5ef;
+        border-radius: 20px;
+        border: 3px solid #ffffff;
+        padding: 70px 80px;
+    }
+    .login-top {
+        text-align: center;
+        margin-bottom: 30px;
+        h3 {
+            text-transform: capitalize;
+            font-size: 36px;
+        }
+        p {
+            margin-top: 10px;
+            text-transform: capitalize;
+            color: #646373;
+        }
+    }
+    .input-email {
+        margin-bottom: 20px;
+        input {
+            width: 100%;
+            line-height: 40px;
+            font-size: 18px;
+            padding: 0 10px;
+        }
+    }
+    .input-password {
+        position: relative;
+        margin-bottom: 20px;
+        input {
+            width: 100%;
+            line-height: 40px;
+            font-size: 18px;
+            padding: 0 40px 0 10px;
+        }
+        i {
+            position: absolute;
+            font-size: 18px;
+            top: 12px;
+            right: 12px;
+        }
+    }
+    .login-suggestion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .login-remember {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        h5 {
+            text-transform: capitalize;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+    .login-forgot-password {
+        a {
+            text-transform: capitalize;
+            font-size: 16px;
+        }
+    }
+    .login-with {
+        position: relative;
+        margin-bottom: 20px;
+        p {
+            text-align: center;
+            text-transform: capitalize;
+            color: #646373;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            width: 35%;
+            height: 2px;
+            background-color: #646373;
+            top: 50%;
+            left: 0;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            width: 35%;
+            height: 2px;
+            background-color: #646373;
+            top: 50%;
+            right: 0;
+        }
+    }
+    .login-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    .login-social-option a{
+        padding: 25px 30px;
+        border: 1px solid #646373;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #ffffff;
+        span {
+            text-transform: capitalize;
+            display: block;
+        }
+    }
+    .register-account {
+        p {
+            text-align: center;
+            text-transform: capitalize;
+            a {
+                text-decoration: underline;
+            }            
+        }
+    }
+    .login-img {
+        text-align: center;
+        img {
+            border-radius: 18px;
+        }
+    }
+    
+}
+
+
+.login-btn button {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #FDD057;
+    border-radius: 20px;
+    border: 0;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.login-btn button:hover {
+    background-color: #37BA44;
+    color: white;
+    cursor: pointer;
+}
+
+.login-btn {
+    margin-bottom: 20px;
+}
+

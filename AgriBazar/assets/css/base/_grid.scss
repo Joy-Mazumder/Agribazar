@@ -1,0 +1,60 @@
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+    .row{
+        display: flex;
+        margin: 0 -15px;
+        flex-wrap: wrap;
+    }
+}
+
+$xxl_breakpoint: 1400px;
+$xl_breakpoint: 1200px;
+$lg_breakpoint: 992px;
+$md_breakpoint: 768px;
+
+@media only screen and (min-width: $lg_breakpoint){
+    .container{
+        width: 970px;
+    }
+    @for $i from 1 through 12{
+        .col-lg-#{$i}{
+            width: (100 / 12) * 1% * $i;
+            padding: 15px;
+        }
+    }
+}
+
+@media only screen and (min-width: $xl_breakpoint){
+    .container{
+        width: 1140px;
+    }
+    @for $i from 1 through 12{
+        .col-xl-#{$i}{
+            width: (100 / 12) * 1% * $i;
+            padding: 15px;
+        }
+    }
+}
+
+
+@media only screen and (min-width: $xxl_breakpoint){
+    .container{
+        width: 1320px;
+        &.custom-container{
+            width: 1720px;
+        }
+    }
+    @for $i from 1 through 12{
+        .col-xxl-#{$i}{
+            width: (100 / 12) * 1% * $i;
+            padding: 15px;
+        }
+    }
+}
+
+
+
+
+

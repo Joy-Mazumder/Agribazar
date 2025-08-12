@@ -1,0 +1,35 @@
+.banner-area{
+    // [class*="col-"]{
+    //     padding: 0;
+    // }
+    .banner-title {
+        h1 {
+            font-size: 60px;
+            span {
+                font-size: 60px;
+                color: #17af26;
+                font-weight: 500;
+            }
+        }
+    }
+    .banner-path {
+        margin-top: 50px;
+        gap: 10px;
+        a {
+            font-size: 18px;
+            text-transform: capitalize;
+            &:last-child {
+                color: #646373;
+            }
+        }
+        span {
+            font-size: 18px;
+            display: block;
+            color: #646373;
+        }
+    }
+
+}
+
+
+

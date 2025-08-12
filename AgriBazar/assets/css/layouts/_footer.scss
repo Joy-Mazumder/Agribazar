@@ -1,0 +1,126 @@
+.footer{
+    background-position: center;
+    .footer-logo {
+            margin-bottom: 30px;
+        }
+    
+    .footer-content{
+        p {
+            text-transform: capitalize;
+            color: #646373;
+            margin-bottom: 20px;
+            font-size: 16px;   
+        }
+    }
+    
+    .footer-content-box {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 25px;
+        a {
+            i {
+                font-size: 60px;
+            }
+            h5 {
+                font-size: 24px;
+                span {
+                    display: block;
+                    text-transform: capitalize;
+                    color: #060121;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .footer-content-list {
+        li {
+            margin-bottom: 15px;
+            a {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                i {
+                    font-size: 20px;
+                    color: #646373;
+                }
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }   
+    .footer-social {
+        margin-top: 20px;
+    } 
+    .footer-social-icon {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 10px;
+        i {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border: 1px solid #646373;
+            border-radius: 10px;  
+            color: #646373;
+         }
+    }
+
+    .single-footer-title {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            background-color: darkcyan;
+            bottom: 0;
+            left: 0;
+        }
+        h2 {
+            text-transform: capitalize;
+            font-size: 26px;
+        }
+    }
+    
+    .single-footer-content {
+        li {
+            margin-bottom: 15px;
+            text-transform: capitalize;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            a {
+                color: #646373;
+            }
+        }
+    }
+    
+}
+
+.footer-bottom{
+    .footer-bottom-copyright p {
+        color: #646373;
+        a {
+            color: #646373;
+            &:hover{
+                color: $primary_color;
+            }
+        }
+    }
+}
+    
+        
+    
+       
+    
+        
+    
+        
+    
+      

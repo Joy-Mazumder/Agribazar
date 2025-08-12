@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>AgriBazar</title>
+    <!-- AgriBazar Tab Bar Icon -->
+    <link rel="Icon" href="assets/img/logo.png">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="ring ring1"></div>
+            <div class="ring ring2"></div>
+            <div class="ring ring3"></div>
+        </div>
+    </div>
+    <!-- /Preloader -->
+
+
+
+    <!-- Header -->
+    <section class="header custom-header">
+        <div class="container">
+            <div class="row align-center">
+                <div class="col-xxl-2">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/img/logo.png" alt="img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xxl-6">
+                    <ul class="menu custom-menu d-flex align-center text-capitalize flex-wrap justify-center">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="shop.html">shop</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-xxl-4">
+                    <div class="header-right d-flex justify-space-between align-center">
+                        <div class="wish-list text-center">
+                            <a href="#">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                        </div>
+                        <img src="assets/img/svg/star-icon-1.svg" alt="svg">
+                        <div class="user-account">
+                            <a href="login.html" class="d-flex align-center">
+                                <i class="fa-solid fa-user-plus"></i>
+                                <h6 class="fw-600"><span>login your</span>account</h6>
+                            </a>
+                            <div class="account-sep">
+                                <div class="account-login">
+                                    <a href="consumer-login.html">consumer login</a>
+                                    <span>or</span>
+                                    <a href="seller-login.html">seller login</a>
+                                </div>
+                                <p>don't have any account?</p>
+                                <div class="account-register">
+
+                                    <a href="consumer-registration.html">consumer sign up</a>
+                                    <span>or</span>
+                                    <a href="seller-registration.html">seller sign up</a>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="assets/img/svg/star-icon-1.svg" alt="svg">
+                        <div class="user-cart d-flex align-center">
+                            <div class="cart-icon">
+                                <a href="#">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                                <span class="text-center">2</span>
+                            </div>
+                            <a href="#">
+                                <h6 class="fw-600"><span>cart items</span>$570.00</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Header -->
+
+    <!-- Login Banner -->
+    <section class="banner-area" style="background-image: url('assets/img/login-register-page/banner-bg.jpg');">
+        <div class="container">
+            <div class="row align-center">
+                <div class="col-xxl-7">
+                    <div class="banner-content">
+                        <div class="banner-title">
+                            <h1 class="text-capitalize"><span>seller</span> registration</h1>
+                        </div>
+                        <div class="banner-path d-flex align-center">
+                            <a href="index.html">home</a>
+                            <span>-</span>
+                            <a href="login.html">registration</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-5">
+                    <div class="banner-img">
+                        <img src="assets/img/login-register-page/banner.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Login Banner -->
+
+    <!-- login form -->
+    <section class="registration-form pt-80 pb-80">
+        <div class="container">
+            <div class="registration-wrapper"
+                style="background-image: url('assets/img/login-register-page/login-bg.jpg');">
+                <div class="row align-center">
+                    <div class="col-xxl-6">
+                        <div class="registeration-wrap">
+                            <div class="registration-top">
+                                <h3>register</h3>
+                                <p>please register to create your account</p>
+                            </div>
+                            <div class="registration-option">
+                                <form action="seller_register.php" method="POST" enctype="multipart/form-data"
+                                    class="form">
+                                    <div class="input-name">
+                                        <input type="text" name="full_name" placeholder="Enter your name" required>
+                                    </div>
+                                    <div class="input-number">
+                                        <input type="text" name="phone_primary"
+                                            placeholder="Enter primary mobile number" required>
+                                    </div>
+                                    <div class="input-number">
+                                        <input type="text" name="phone_secondary"
+                                            placeholder="Enter secondary mobile number (optional)">
+                                    </div>
+                                    <div class="input-email">
+                                        <input type="email" name="email" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="input-password">
+                                        <input type="password" name="password" placeholder="Password" required>
+                                    </div>
+                                    <div class="input-check-password">
+                                        <input type="password" name="confirm_password" placeholder="Confirm Password"
+                                            required>
+                                    </div>
+                                    <div class="input-seller-image">
+                                        <h5>Upload Your Photo</h5>
+                                        <input type="file" name="profile_image" accept="image/*" required>
+                                        <p style="font-size: 14px; color: #666; margin-top: 5px;">
+                                            This photo will be used to verify your identity and will be set as your
+                                            profile image after approval.
+                                            You can update your profile picture later from your dashboard.
+                                        </p>
+                                    </div>
+
+                                    <div class="input-nid-copy">
+                                        <h5>Give us your NID card copy</h5>
+                                        <input type="file" name="nid_copy" accept="image/*,.pdf" required>
+                                    </div>
+                                    <div class="registration-btn">
+                                        <button type="submit">Register</button>
+                                    </div>
+                                </form>
+
+
+                                <div class="login-account">
+                                    <p>already have an account? <a href="#">login here</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6">
+                        <div class="registration-img">
+                            <img src="assets/img/login-register-page/register.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /login form -->
+
+
+    <!-- Feature Area -->
+    <section class="feature custom-feature pt-20 pb-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-3">
+                    <div class="single-feature">
+                        <div class="feature-img">
+                            <img src="assets/img/feature/feature-2.jpg" alt="img">
+                        </div>
+                        <div class="feature-content">
+                            <h5>free shiping</h5>
+                            <p>shipping on your order. no extra charges for delivery.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="single-feature">
+                        <div class="feature-img">
+                            <img src="assets/img/feature/feature-3.jpg" alt="img">
+                        </div>
+                        <div class="feature-content">
+                            <h5>secure payments</h5>
+                            <p>our financial information is protected</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="single-feature">
+                        <div class="feature-img">
+                            <img src="assets/img/feature/feature-4.jpg" alt="img">
+                        </div>
+                        <div class="feature-content">
+                            <h5>24 hour support</h5>
+                            <p>we're here to help whenever you need us.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="single-feature">
+                        <div class="feature-img">
+                            <img src="assets/img/feature/feature-5.jpg" alt="img">
+                        </div>
+                        <div class="feature-content">
+                            <h5>best prices & offers</h5>
+                            <p>provides unbeatable deals on a wide range of products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Feature Area -->
+
+
+    <!-- Footer Area -->
+    <section class="footer pt-60 pb-60" style="background-image: url('assets/img/footer/footer-bg.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-3">
+                    <div class="footer-info-area">
+                        <div class="footer-logo">
+                            <a href="#"><img src="assets/img/logo.png" alt="img"></a>
+                        </div>
+                        <div class="footer-content">
+                            <p>AgriBazar is a online grocery shop. we are selling grocery products</p>
+                            <div class="footer-content-box">
+                                <a href="#"><i class="fa-solid fa-headset"></i></a>
+                                <a href="#">
+                                    <h5><span>emergency support</span>+123 4567 8901</h5>
+                                </a>
+                            </div>
+                            <ul class="footer-content-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <p>123 Main Street, Anytown, California 90210 user-account</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-solid fa-envelope-open-text"></i>
+                                        <p>support@domain.com</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-solid fa-headset"></i>
+                                        <p>+00 123 5555 888</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <p>10:00 - 18:00 Monday - saturday</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="footer-social">
+                                <h5>follow us:</h5>
+                                <div class="footer-social-icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="single-footer">
+                        <div class="single-footer-title">
+                            <h2>company</h2>
+                        </div>
+                        <ul class="single-footer-content">
+                            <li><a href="">about us</a></li>
+                            <li><a href="">delevery information</a></li>
+                            <li><a href="">privacy policy</a></li>
+                            <li><a href="">terms & condition</a></li>
+                            <li><a href="">contact us</a></li>
+                            <li><a href="">carrers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="single-footer">
+                        <div class="single-footer-title">
+                            <h2>quick links</h2>
+                        </div>
+                        <ul class="single-footer-content">
+                            <li><a href="">about company</a></li>
+                            <li><a href="">articles & blogs</a></li>
+                            <li><a href="">flash sales</a></li>
+                            <li><a href="">checkout</a></li>
+                            <li><a href="">FAQs Page</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="single-footer">
+                        <div class="single-footer-title">
+                            <h2>support</h2>
+                        </div>
+                        <ul class="single-footer-content">
+                            <li><a href="">my account</a></li>
+                            <li><a href="">payment method</a></li>
+                            <li><a href="">license & permit</a></li>
+                            <li><a href="">our partners</a></li>
+                            <li><a href="">support center</a></li>
+                            <li><a href="">shopping cart</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-bottom ">
+        <div class="container">
+            <div class="row align-center">
+                <div class="col-xxl-6">
+                    <div class="footer-bottom-copyright">
+                        <p>Copyright 2025 &copy; <a href="#">AgriBazar</a>. All rights reserved.</p>
+                    </div>
+                </div>
+                <div class="col-xxl-6">
+                    <div class="footer-bottom-img text-right">
+                        <img src="assets/img/footer/footer-boottom-payment.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Footer Area -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // --------Pre-loader-----------
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                document.querySelector(".preloader").classList.add("hidden");
+            }, 1000); // Wait 2 seconds before hiding
+        });
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

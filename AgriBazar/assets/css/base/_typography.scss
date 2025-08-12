@@ -1,0 +1,41 @@
+$headings: (h1, 40px, 48px, 700),
+           (h2, 32px, 40px, 600),
+           (h3, 28px, 36px, 600),
+           (h4, 24px, 32px, 500),
+           (h5, 20px, 28px, 500),
+           (h6, 16px, 24px, 400),
+           (p, 16px, 24px, 400),
+           (span, 16px, 24px, 400),
+           (div, 16px, 24px, 400);
+
+@each $name, $font_size, $line_height, $font_weight in $headings{
+    #{$name}{
+        font-size: $font_size;
+        line-height: $line_height;
+        font-weight: $font_weight;
+    }
+}
+
+$transforms: uppercase, lowercase, capitalize;
+
+@each $transform in $transforms{
+    .text-#{$transform}{
+        text-transform: $transform;
+    }
+}
+
+$aligns: left, center, right, justify;
+
+@each $align in $aligns{
+    .text-#{$align}{
+        text-align: $align;
+    }
+}
+
+$weights: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+
+@each $weight in $weights{
+    .fw-#{$weight}{
+        font-weight: $weight;
+    }
+}

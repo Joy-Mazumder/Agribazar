@@ -1,0 +1,67 @@
+.newsletter {
+    position: relative;
+    .newsletter-shape1 {
+        position: absolute;
+        right: 0;
+        top: 55px;
+    }
+    .newsletter-shape2 {
+        position: absolute;
+        left: 0;
+        top: 55px;
+    }
+    .newsletter-wrapper {
+        background-color: #00801C;
+        padding: 50px 20px;
+        border-radius: 20px;
+    }
+    .newsletter-item {
+        h3 {
+            margin-bottom: 10px;
+            font-size: 48px;
+            color: #ffffff;
+            text-transform: capitalize;
+        }
+        p {
+            color: #ffffff;
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+    }
+    .newsletter-subscribe {
+        position: relative;
+        input {
+            width: 100%;
+            color: white;
+            background-color: #00801C;
+            outline: none;
+            padding: 10px 35px;
+            line-height: 40px;
+            border: 1px solid wheat;
+            border-radius: 30px;
+            font-size: 18px;
+            &::placeholder{
+                color: #ffffff;
+            }
+        }
+        button {
+            padding: 15px 20px;
+            text-transform: capitalize;
+            font-size: 18px;
+            border-radius: 25px;
+            border: 0;
+            background-color: #F5CB54;
+            position: absolute;
+            right: 10px;
+            top: 5px;
+        }
+    }
+}
+
+
+
+
+
+
+
+

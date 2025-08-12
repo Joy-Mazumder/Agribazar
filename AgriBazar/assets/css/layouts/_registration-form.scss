@@ -1,0 +1,120 @@
+.registration-form {
+    .registration-wrapper {
+        width: 80%;
+        margin: auto;
+        background: linear-gradient(241deg, #fff 0%, #fbfbfb 99.32%);
+        box-shadow: 0px 0px 19px 0px #e8e5ef;
+        border-radius: 20px;
+        border: 3px solid #ffffff;
+        padding: 70px 80px;
+    }
+
+    .registration-top {
+        text-align: center;
+        margin-bottom: 30px;
+
+        h3 {
+            text-transform: capitalize;
+            font-size: 36px;
+        }
+
+        p {
+            margin-top: 10px;
+            text-transform: capitalize;
+            color: #646373;
+        }
+    }
+
+    .input-email, .input-name, .input-number, .input-nid-number {
+
+        input {
+            width: 100%;
+            line-height: 40px;
+            font-size: 18px;
+            padding: 0 10px;
+        }
+    }
+
+    .input-password, .input-check-password {
+        position: relative;
+
+        input {
+            width: 100%;
+            line-height: 40px;
+            font-size: 18px;
+            padding: 0 40px 0 10px;
+        }
+
+        i {
+            position: absolute;
+            font-size: 18px;
+            top: 12px;
+            right: 12px;
+        }
+    }
+
+
+    .login-account {
+        p {
+            text-align: center;
+            text-transform: capitalize;
+
+            a {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .registration-img {
+        text-align: center;
+
+        img {
+            border-radius: 18px;
+        }
+    }
+    form.form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .input-nid-copy{
+        h5 {
+            text-transform: capitalize;
+            border-bottom: 1px solid darkgrey;
+        }
+        input {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    }
+    .input-nid-number{
+        h5{
+            text-transform: capitalize;
+            margin-bottom: 10px;
+        }
+    }
+
+}
+
+
+.registration-btn button {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #FDD057;
+    border-radius: 20px;
+    border: 0;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.registration-btn button:hover {
+    background-color: #37BA44;
+    color: white;
+    cursor: pointer;
+}
+
+.registration-btn {
+    margin-bottom: 20px;
+}
