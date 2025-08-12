@@ -2,6 +2,22 @@
 
 ---
 
+## 🎥 Project Video
+📌 [*Watch Project Video Here*]([(https://youtu.be/YOCWALiFaLs?feature=shared)])  
+
+*Video Includes:*
+- Demonstration of all functionalities
+- Frontend explanation
+- Backend explanation
+- Database queries showcase
+
+---
+
+## 📊 ER Diagram
+📌 [*View ER Diagram Here*]((https://github.com/sumon2003/ER-Diagram))  
+
+---
+
 ## 👥 Group Details
 
 ### Member Information
@@ -13,7 +29,7 @@
    Contribution: Complete table creation, My product, Filter (Default, High to Low, Low to High, Availability), Consumer login, Consumer register, Status check
 
 3. *Phijush Majumdar Joy (231-115-049)*  
-   Contribution: Complete Schema, Search Bar, Add to Cart, Buy, Filter
+   Contribution: Complete Schema, Search functionality, Filter or filter on search result ,Add to Cart , cart functionality, Buy functionality
 
 ---
 
@@ -91,23 +107,3 @@ To develop a full-fledged e-commerce website that enables farmers to sell their 
 
 ## 🗄 Database
 - *Technologies Used:* MySQL
-
----
-
-## 🎥 Project Video
-📌 [*Watch Project Video Here*]([(https://youtu.be/YOCWALiFaLs?feature=shared)])  
-
-*Video Includes:*
-- Demonstration of all functionalities
-- Frontend explanation
-- Backend explanation
-- Database queries showcase
-
----
-
-## 📊 ER Diagram
-📌 [*View ER Diagram Here*]((https://github.com/sumon2003/ER-Diagram))  
-
-![ER Diagram](PUT-YOUR-ER-DIAGRAM-IMAGE-LINK-HERE)
-
----
