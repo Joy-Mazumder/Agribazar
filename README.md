@@ -95,7 +95,7 @@ To develop a full-fledged e-commerce website that enables farmers to sell their 
 ---
 
 ## 🎥 Project Video
-📌 [*Watch Project Video Here*]((https://youtu.be/YOCWALiFaLs?feature=shared))  
+📌 [*Watch Project Video Here*]([(https://youtu.be/YOCWALiFaLs?feature=shared)])  
 
 *Video Includes:*
 - Demonstration of all functionalities
