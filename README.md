@@ -14,7 +14,7 @@
 ---
 
 ## 📊 ER Diagram
-📌 [*View ER Diagram Here*]((https://github.com/sumon2003/ER-Diagram))  
+📌 [*View ER Diagram Here*](https://github.com/sumon2003/ER-Diagram)  
 
 ---
 
