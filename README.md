@@ -23,13 +23,13 @@
 ### Member Information
 
 1. *Sourav Kumar Biswas (231-115-050)*  
-   Contribution: Database connection setup, Implementing the Seller authentication system (Login & Register),Developing the Admin approval workflow for sellers, Product upload with image handling, Contribution of project idea and seller-side flow design for smooth user experience
+   Contribution: Database connection setup, Implementing the Seller authentication system (Login & Register),Developing the Admin approval workflow for sellers, Product upload with image handling, Contribution of project idea and seller-side flow design for smooth user experience, Frontend Work
 
 2. *Md Sumon Hossain Khan (231-115-072)*  
-   Contribution: Database table creation , Implementing the consumer authentication system with Login & Register, Managing the “My Product” section for sellers to track and modify their products, product filtering functionality (Default, Price High→Low, Price Low→High, Availability) for enhanced  experience, User/Seller status check and consumer-side functional flow
+   Contribution: Database table creation , Implementing the consumer authentication system with Login & Register, Managing the “My Product” section for sellers to track and modify their products, product filtering functionality (Default, Price High→Low, Price Low→High, Availability) for enhanced  experience, User/Seller status check and consumer-side functional flow, Frontend work
 
 3. *Phijush Majumdar Joy (231-115-049)*  
-   Contribution: Complete database schema design & relationships, Search functionality with dynamic SQL queries & optimization, Advanced filtering integrated with search results, Add to Cart system with SQL-based session handling, Session-based authentication & secure login flows, Scalable backend logic for cart & Buy functionality including stock validation and transaction flow
+   Contribution: Complete database schema design & relationships, Search functionality with dynamic SQL queries & optimization, Advanced filtering integrated with search results, Add to Cart system with SQL-based session handling, Session-based authentication & secure login flows, Scalable backend logic for cart & Buy functionality including stock validation and transaction flow, Frontend-backend integration for smooth user experience
 
 ---
 
