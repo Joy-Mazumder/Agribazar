@@ -23,13 +23,13 @@
 ### Member Information
 
 1. *Sourav Kumar Biswas (231-115-050)*  
-   Contribution: Database connection, Seller login, Seller register, Admin approval, Product upload, Project idea
+   Contribution: Database connection setup, Seller authentication system (Login & Register), Admin approval workflow for sellers, Product upload with image handling, Contribution of project idea and seller-side flow design
 
 2. *Md Sumon Hossain Khan (231-115-072)*  
-   Contribution: Complete table creation, My product, Filter (Default, High to Low, Low to High, Availability), Consumer login, Consumer register, Status check
+   Contribution: Database table creation , Consumer authentication system (Login & Register), Seller “My Product” management, Product filtering (Default, Price High→Low, Price Low→High, Availability), User/Seller status check and consumer-side functional flow
 
 3. *Phijush Majumdar Joy (231-115-049)*  
-   Contribution: Complete Schema, Search functionality, Filter or filter on search result ,Add to Cart , cart + Buy functionality
+   Contribution: Complete database schema design & relationships, Search functionality with dynamic SQL queries & optimization, Advanced filtering integrated with search results, Add to Cart system with SQL-based session handling, Session-based authentication & secure login flows, Scalable backend logic for cart & Buy functionality including stock validation and transaction flow
 
 ---
 
@@ -61,7 +61,7 @@ To develop a full-fledged e-commerce website that enables farmers to sell their 
 ## ✨ Key Features
 
 ### 1. User Features
-- *Responsive & Accessible Design* – Works on desktop, tablet, and mobile devices.
+- *Responsive & Accessible Design* 
 - *User Registration & Login* with Voter ID Card authentication.
 - *Profile Management* – Update personal info and view order history.
 
