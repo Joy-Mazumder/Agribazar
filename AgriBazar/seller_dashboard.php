@@ -101,10 +101,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $file_tmp = $_FILES['product_image']['tmp_name'];
             $file_name = basename($_FILES['product_image']['name']);
             $file_ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
-            $allowed_ext = ['jpg', 'jpeg', 'png', 'gif'];
+            $allowed_ext = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
 
             if (!in_array($file_ext, $allowed_ext)) {
-                $error_message = "Invalid image format. Allowed: jpg, jpeg, png, gif.";
+                $error_message = "Invalid image format. Allowed: jpg, jpeg, png, gif, webp.";
             } else {
                 // Create uploads/products directory if not exists
                 $upload_dir = 'uploads/products/';
@@ -544,11 +544,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <i class="fa fa-sitemap" style="margin-right: 10px;"></i>Select Product Category
                             </h4>
                             <div class="enhanced-category-grid">
-                                <label class="category-option">
-                                    <input type="radio" name="category" value="" required />
-                                    <i class="fa fa-hand-pointer-o" style="color: #f39c12;"></i>
-                                    Select Category
-                                </label>
+                                
                                 <label class="category-option">
                                     <input type="radio" name="category" value="vegetables" required />
                                     <i class="fa fa-leaf" style="color: #27ae60;"></i>
@@ -556,7 +552,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 </label>
                                 <label class="category-option">
                                     <input type="radio" name="category" value="fruits" required />
-                                    <i class="fa fa-apple" style="color: #e74c3c;"></i>
+                                    <i class="fa fa-fruit" style="color: #e74c3c;"></i>
                                     Fruits
                                 </label>
                                 <label class="category-option">

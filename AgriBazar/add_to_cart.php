@@ -1,11 +1,11 @@
 <?php
-// add_to_cart.php
+
 session_start();
 include 'db_connect.php';
 
 header('Content-Type: application/json');
 
-// Check if user is logged in
+
 $user_id = $_SESSION['consumer_id'] ?? $_SESSION['seller_id'] ?? null;
 
 if (!$user_id) {

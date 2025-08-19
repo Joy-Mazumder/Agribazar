@@ -1,5 +1,5 @@
 <?php
-// Session management and database connection code remains the same
+
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
@@ -13,11 +13,15 @@ $search_query = $_GET['search'] ?? '';
 $sort_option = $_GET['sort'] ?? 'default';
 $category_filter = $_GET['category'] ?? '';
 
-// Build the base SQL query
-$sql = "SELECT p.*, s.full_name as seller_name, um.profile_image as seller_image 
+
+// $sql = "SELECT p.*, s.full_name as seller_name, um.profile_image as seller_image 
+//         FROM products p 
+//         LEFT JOIN sellers s ON p.seller_id = s.seller_id 
+//         LEFT JOIN user_meta um ON um.user_id = s.seller_id 
+//         WHERE 1=1";
+$sql = "SELECT p.*, s.full_name as seller_name 
         FROM products p 
-        LEFT JOIN sellers s ON p.seller_id = s.seller_id 
-        LEFT JOIN user_meta um ON um.user_id = s.seller_id 
+        LEFT JOIN sellers s ON p.seller_id = s.seller_id  
         WHERE 1=1";
 
 $params = [];
@@ -86,7 +90,7 @@ if ($user_id) {
     $cart_total = $cart_data['total'] ?? 0;
 }
 
-// Get categories for filter dropdown from database
+
 $category_sql = "SELECT DISTINCT product_category FROM products WHERE product_category IS NOT NULL AND product_category != ''";
 $category_result = $conn->query($category_sql);
 ?>
@@ -860,7 +864,7 @@ $category_result = $conn->query($category_sql);
     <!-- Main Content -->
     <section class="main-content">
         <div class="container">
-            <!-- Enhanced Beautiful Banner with Much More Height -->
+           
             <div class="shop-banner">
                 <div class="banner-content">
                     <div class="banner-title">
@@ -913,7 +917,7 @@ $category_result = $conn->query($category_sql);
                 </form>
             </div>
 
-            <!-- Enhanced Product Grid with COLUMN Layout for Seller Info -->
+            
             <div class="product-grid">
                 <?php if ($result->num_rows > 0): ?>
                     <?php while ($product = $result->fetch_assoc()): ?>

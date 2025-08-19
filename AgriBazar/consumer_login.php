@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if (password_verify($password, $hashed_password)) {
 
-            // 🔍 Focused MySQL query to check consumer account status
+            //  Focused MySQL query to check consumer account status
             $statusCheck = $conn->prepare("SELECT status FROM user_meta WHERE user_id = ?");
             $statusCheck->bind_param("i", $user_id);
             $statusCheck->execute();
@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $statusCheck->fetch();
             $statusCheck->close();
 
-            // 🚫 If consumer is inactive
+            //  If consumer is inactive
             if ($status === 'inactive') {
                 echo "
                 <div style='
@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <h2 style='margin-bottom: 15px;'>🚫 Account Temporarily Blocked</h2>
                     <p style='font-size: 16px;'>Your AgriBazar consumer account has been temporarily restricted due to unusual activity or policy violations.</p>
                     <p style='font-size: 15px; margin-top: 10px;'>Please wait a few days before trying again. Make sure to follow community rules during usage.</p>
-                    <a href='index.html' style='
+                    <a href='index.php' style='
                         display: inline-block;
                         margin-top: 20px;
                         padding: 10px 22px;
@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 exit;
             }
 
-            // ✅ Login and set session
+            //  Login and set session
             $_SESSION['consumer_id'] = $user_id;
 
             $ip_address = $_SERVER['REMOTE_ADDR'];
@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $checkStmt->close();
 
-            // 🧺 Consumer quotes
+            //  Consumer quotes
             $quotes = [
                 "🌱 'By supporting farmers, you support life.' – Shop local, eat fresh!",
                 "🍅 'Freshness starts from the farm, delivered to your door.' Fresh from farm to your home – only on AgriBazar!",
